@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  FaceRecognition
+//
+//  Created by dang on 16/7/10.
+//  Copyright © 2016年 dang. All rights reserved.
+//
+
+#import <Availability.h>
+
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#define Margin  5
+#define Padding 10
+#define IOS7_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+#define ButtonHeight 44
+#define NavigationBarHeight 44
+
+#define USER_APPID  @"56ce54a5"
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
