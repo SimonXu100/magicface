@@ -1,5 +1,5 @@
 # magicface
-Development of Real-time Mobile Face Animation APP based on Face Recognition Technology 
+### Development of Real-time Mobile Face Animation APP based on Face Recognition Technology 
 Oct 2016 – Apr 2017                                                                                                   
 
 Used IFlyFaceDetector framework to get the real-time face landmark points data based on camera frames
